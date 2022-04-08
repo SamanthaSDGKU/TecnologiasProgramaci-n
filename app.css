@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 16px;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:black;
+    
+}
+a.google-link{
+    color:red;
+}

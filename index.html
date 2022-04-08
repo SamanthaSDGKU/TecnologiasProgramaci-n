@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <!--esto es un comentario-->
+    <header class="container">
         <h1>Proyecto Ejemplo</h1>
-        <nav>
-            <a href="">Link 1</a>
-            <a href="">Link 2</a>
-            <a href="">Link 3</a>
-            <a href="">Link 4</a>
-            <a href="">Link 5</a>
-        </nav>
+       
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+        
     </header>
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ab natus! Qui voluptatibus alias iure quos. Consequuntur ullam maiores, consectetur iste, corporis placeat ducimus officiis quidem nisi voluptatem assumenda nobis.</p>
+    <main class="container">
+        <p class="google-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ab natus! Qui voluptatibus alias iure quos. Consequuntur ullam maiores, consectetur iste, corporis placeat ducimus officiis quidem nisi voluptatem assumenda nobis.</p>
         <input type="text" id="userName">
-        <button>Agregar</button>
+        <button class="btn btn-danger">Agregar</button>
         <div id="info">
 
         </div>
